@@ -1,27 +1,16 @@
-
 provider "aws" {
   region = "ca-central-1"
 }
-<<<<<<< HEAD
-resource "aws_s3_bucket" "my_bucket1144441" {
-  bucket  = "my-unique-bucket-name1144441"
-  tags    = {
-	Name          = "MyS3Bucket"
-	Environment    = "Production"
-=======
 
-resource "aws_s3_bucket" "my_bucket2010" {
-  bucket = "my-unique-bucket-name2010"
+resource "aws_s3_bucket" "my_bucket123456123456" {
+  bucket = "my-unique-bucket-name123456789"
   
   tags = {
     Name        = "MyS3Bucket"
     Environment = "Production"
->>>>>>> a04e068824e89a8a9ca109c4a41cf9fcb948fb17
   }
 
   lifecycle {
-	prevent_destroy=true
-    ignore_changes = all
+    ignore_changes  = all
   }
-
 }
