@@ -3,8 +3,8 @@ provider "aws" {
   region = "ca-central-1"
 }
 <<<<<<< HEAD
-resource "aws_s3_bucket" "my_bucket114444" {
-  bucket  = "my-unique-bucket-name114444"
+resource "aws_s3_bucket" "my_bucket1144441" {
+  bucket  = "my-unique-bucket-name1144441"
   tags    = {
 	Name          = "MyS3Bucket"
 	Environment    = "Production"
